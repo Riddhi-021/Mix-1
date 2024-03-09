@@ -1,0 +1,39 @@
+/* styles.css */
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.sidebar {
+    background-color: white;
+}
+
+.sidebar .stMarkdown {
+    color: black;
+}
+
+.stRadio label {
+    color: black;
+}
+
+.stButton button {
+    background-color: #0072b5;
+    color: white;
+}
+
+.stTextInput input {
+    background-color: white;
+    color: black;
+}
+
+# config.toml
+[theme]
+base = "light"
+primaryColor = "#ff6347"
+secondaryBackgroundColor="#f9f9fb"
+
+
+div[data-testid="stSidebar"][aria-expanded="true"] {
+    background-color: white !important;
+}

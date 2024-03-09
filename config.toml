@@ -1,0 +1,10 @@
+# config.toml
+[theme]
+base = "light"
+primaryColor = "#ffffff"
+secondaryBackgroundColor="#ffffff"
+
+
+div[data-testid="stSidebar"][aria-expanded="true"] {
+    background-color: white !important;
+}
